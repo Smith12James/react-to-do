@@ -33,6 +33,12 @@
     this.setState({ todos: todos });
    }
 
+   deleteTodo(index) {
+     this.setState(prevState => ({
+       todos: prevState.todos.filter()
+     }));
+   }
+
    render() {
      return (
        <div className="App">
